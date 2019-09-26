@@ -1,4 +1,4 @@
-package website.marcioheleno;
+package website.marcioheleno.av1;
 
 import java.util.Scanner;
 
