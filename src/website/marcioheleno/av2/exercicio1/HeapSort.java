@@ -14,13 +14,37 @@ public class HeapSort {
         System.out.println(A[left(2)]);
         System.out.println("Right A(4):");
         System.out.println(A[right(4)]);
+        System.out.println("Aplicando MaxHeapFy na raiz do vetor:");
+        maxheapfy(A, 0);
+        imprimeHeap(A);
+        System.out.println("=======================================");
+        System.out.println("Aplicando MaxHeapFy no indice 2 do vetor:");
         maxheapfy(A, 2);
         imprimeHeap(A);
-        //int[] B = criaVetorAleatorio(15);
-        //System.out.println("------------------------------------------------------------------------------------------");
-        //System.out.println("Vetor B:");
-        //imprimeVetor(B);
-        //imprimeHeap(B);
+
+        System.out.println("=======================================");
+        System.out.println("Aplicando MaxHeapFy no indice 2 e no indice 5 do vetor:");
+        maxheapfy(A, 2);
+        maxheapfy(A, 5);
+        imprimeHeap(A);
+
+        System.out.println("=======================================");
+        System.out.println("Aplicando MaxHeapFy no indice 5 e no indice 2 do vetor:");
+        maxheapfy(A, 2);
+        maxheapfy(A, 5);
+        imprimeHeap(A);
+        int[] B = criaVetorAleatorio(15);
+        System.out.println("------------------------------------------------------------------------------------------");
+        System.out.println("Vetor B:");
+        imprimeVetor(B);
+        imprimeHeap(B);
+
+        System.out.println("=======================================");
+        System.out.println("Aplicando o procedimento de buildMaxHeap no vetor B:");
+        buildmaxheap(B);
+        imprimeHeap(B);
+
+
     }
 
     static int left (int i) {
@@ -34,26 +58,35 @@ public class HeapSort {
     }
 
     static void maxheapfy (int[] V, int i) {
-        int l = V[left(i)];
-        int r = V[right(i)];
-        int m = V[i];
+        int l = left(i);
+        int r = right(i);
+        int maior = 0;
 
-        if (l >= V[i] && V.length > i) {
-            m = l;
+        if (l <= V.length && V[l] > V[i]) {
+            maior = l;
         } else {
-            m = i;
+            maior = i;
         }
 
-        if (r >= V[i] && V.length > i) {
-            m = r;
-        } else {
-            m = i;
+        if (r <= V.length && V[r] > V[maior]) {
+            maior = r;
         }
 
+        if (maior != i) {
+            int trocar = V[i];
+            V[i] = V[maior];
+            V[maior] = trocar;
+            maxheapfy(V, i);
+        }
     }
 
     static void buildmaxheap (int[] V) {
         // to do
+        for (int i = V.length / 2; i >= 1; i--) {
+            maxheapfy(V, i - 1);
+//            System.out.println("============================================");
+//            imprimeHeap(V);
+        }
     }
 
     static int[] criaVetorAleatorio (int n) {

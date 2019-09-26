@@ -1,0 +1,41 @@
+
+bsquid:S1192	"FDefine a constant instead of duplicating this literal "tempo" 3 times.(Ú‰ËÙûÿÿÿÿ
+msquid:S1192*"QDefine a constant instead of duplicating this literal "%10d%20d%10.0f\n" 3 times.(´üÚşÿÿÿÿ
+dsquid:S1192	"HDefine a constant instead of duplicating this literal "solucao" 3 times.(Ú‰ËÙûÿÿÿÿ
+ksquid:S1192	"ODefine a constant instead of duplicating this literal "%10s%20s%10s\n" 3 times.(Ú‰ËÙûÿÿÿÿ
+?squid:S1148""#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÍÔğ£
+<squid:S3457"%String contains no format specifiers.(ÍÔğ£
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÍÔğ£
+msquid:S3457	"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S106	"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ÑÚìúÿÿÿÿ
+Asquid:S3457"%String contains no format specifiers.(ÑÚìúÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÑÚìúÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(€ÆÊ£
+<squid:S3457"%String contains no format specifiers.(€ÆÊ£
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(€ÆÊ£
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+]squid:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+msquid:S3457*"Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S106*"9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ
+]squid:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+msquid:S3457;"Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ
+]squid:S2142B"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+msquid:S3457H"Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S106H"9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ

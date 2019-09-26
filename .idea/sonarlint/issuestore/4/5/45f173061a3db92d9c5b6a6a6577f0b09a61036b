@@ -1,0 +1,18 @@
+
+Tsquid:S1197"8Move the array designator from the variable to the type.(é¸„ƒÿÿÿÿÿ
+Isquid:S1135
+"2Complete the task associated to this TODO comment.(Ÿ»É
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(åÒÃ¯üÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ş…õÀıÿÿÿÿ
+fsquid:S00100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î«Ïñ
+N
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ÄÆäv
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(³¬å
+Isquid:S1481"-Remove this unused "qtdImpar" local variable.(åÂ»üÿÿÿÿ
+Bsquid:S1481!"&Remove this unused "a" local variable.(¤¼ÙÓùÿÿÿÿ
+Bsquid:S1481""&Remove this unused "v" local variable.(şŞ˜Úúÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Êü¦Òøÿÿÿÿ
+gsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(—â†ßùÿÿÿÿ

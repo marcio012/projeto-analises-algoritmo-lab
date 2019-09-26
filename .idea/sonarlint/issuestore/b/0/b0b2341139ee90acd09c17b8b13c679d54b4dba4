@@ -1,0 +1,33 @@
+
+bsquid:S1192"FDefine a constant instead of duplicating this literal "tempo" 3 times.(Ú‰ËÙûÿÿÿÿ
+msquid:S1192 "QDefine a constant instead of duplicating this literal "%10d%20d%10.0f\n" 3 times.(´üÚşÿÿÿÿ
+dsquid:S1192"HDefine a constant instead of duplicating this literal "solucao" 3 times.(Ú‰ËÙûÿÿÿÿ
+ksquid:S1192"ODefine a constant instead of duplicating this literal "%10s%20s%10s\n" 3 times.(Ú‰ËÙûÿÿÿÿ
+O
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ìÂ®
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(íÒŸûÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+msquid:S3457 "Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S106 "9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ
+N
+squid:S106$"9Replace this use of System.out or System.err by a logger.(Ú·Ç
+msquid:S3457%"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+msquid:S3457."Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S106."9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ªÊÉÖ
+msquid:S34573"Q%n should be used in place of \n to produce the platform-specific line separator.(Ú‰ËÙûÿÿÿÿ
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ú‰ËÙûÿÿÿÿ
+msquid:S34578"Q%n should be used in place of \n to produce the platform-specific line separator.(´üÚşÿÿÿÿ
+T
+squid:S1068"9Replace this use of System.out or System.err by a logger.(´üÚşÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(€®¡

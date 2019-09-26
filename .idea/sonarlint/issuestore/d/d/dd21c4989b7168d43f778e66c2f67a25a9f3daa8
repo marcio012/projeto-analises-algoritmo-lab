@@ -1,0 +1,72 @@
+
+jsquid:S1192"NDefine a constant instead of duplicating this literal "%5s%10s%10s\n" 3 times.(“øåşÿÿÿÿ
+fsquid:S1192"JDefine a constant instead of duplicating this literal "insertion" 3 times.(“øåşÿÿÿÿ
+qsquid:S1192"ZDefine a constant instead of duplicating this literal "-------------------------" 3 times.(ğÔ‘¬
+bsquid:S1192"FDefine a constant instead of duplicating this literal "merge" 3 times.(“øåşÿÿÿÿ
+isquid:S1192"RDefine a constant instead of duplicating this literal "%5d%10.0f%10.0f\n" 3 times.(‡Œÿ
+{squid:S4165%"_Remove this useless assignment; "A" already holds the assigned value along all execution paths.(Â¦ËÎıÿÿÿÿ
+{squid:S4165"_Remove this useless assignment; "A" already holds the assigned value along all execution paths.(Â¦ËÎıÿÿÿÿ
+{squid:S41656"_Remove this useless assignment; "A" already holds the assigned value along all execution paths.(Â¦ËÎıÿÿÿÿ
+vsquid:S4165)"_Remove this useless assignment; "B" already holds the assigned value along all execution paths.(Œ‚’Ğ
+vsquid:S4165:"_Remove this useless assignment; "B" already holds the assigned value along all execution paths.(Œ‚’Ğ
+vsquid:S4165"_Remove this useless assignment; "B" already holds the assigned value along all execution paths.(Œ‚’Ğ
+nsquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úßâşÿÿÿÿ
+nsquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úßâşÿÿÿÿ
+nsquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü´¸éıÿÿÿÿ
+nsquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü´¸éıÿÿÿÿ
+nsquid:S00117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü´¸éıÿÿÿÿ
+isquid:S00117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤çü¯
+nsquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëæè¦ûÿÿÿÿ
+nsquid:S00117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«şó™úÿÿÿÿ
+osquid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ºòÌşÿÿÿÿ
+jsquid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ì¼
+jsquid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢·ú
+?squid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148r"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+;squid:S1659	"Declare "B" on a separate line.(úßâşÿÿÿÿ
+>squid:S1659
+""Declare "fim1" on a separate line.(éùĞ¾ıÿÿÿÿ
+@squid:S1659
+"$Declare "tempo1" on a separate line.(éùĞ¾ıÿÿÿÿ
+>squid:S1659""Declare "fim2" on a separate line.(ßĞ ÿıÿÿÿÿ
+@squid:S1659"$Declare "tempo2" on a separate line.(ßĞ ÿıÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ï¯÷‹ùÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(“øåşÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(“øåşÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬
+hsquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‡Œÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡Œÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾²Ûìÿÿÿÿÿ
+msquid:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(“øåşÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(“øåşÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ğÔ‘¬
+hsquid:S3457,"Q%n should be used in place of \n to produce the platform-specific line separator.(‡Œÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(‡Œÿ
+T
+squid:S106/"9Replace this use of System.out or System.err by a logger.(úàºıÿÿÿÿ
+msquid:S34570"Q%n should be used in place of \n to produce the platform-specific line separator.(“øåşÿÿÿÿ
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(“øåşÿÿÿÿ
+O
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬
+hsquid:S3457="Q%n should be used in place of \n to produce the platform-specific line separator.(‡Œÿ
+O
+squid:S106="9Replace this use of System.out or System.err by a logger.(‡Œÿ
+5squid:S2119B"Save and re-use this "Random".(õ¾§ü
+5squid:S2119K"Save and re-use this "Random".(õ¾§ü
+5squid:S2119W"Save and re-use this "Random".(õ¾§ü
+O
+squid:S106a"9Replace this use of System.out or System.err by a logger.(¬­Ğ®
+]squid:S2142i"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2142q"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+<squid:S1659‡"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+^squid:S2142™"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
