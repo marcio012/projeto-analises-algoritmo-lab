@@ -60,7 +60,7 @@ public class HeapSort {
     static void maxheapfy (int[] V, int i) {
         int l = left(i);
         int r = right(i);
-        int maior = 0;
+        int maior = i;
 
         if (l <= V.length && V[l] > V[i]) {
             maior = l;
@@ -76,7 +76,7 @@ public class HeapSort {
             int trocar = V[i];
             V[i] = V[maior];
             V[maior] = trocar;
-            maxheapfy(V, i);
+            maxheapfy(V, maior);
         }
     }
 
@@ -84,8 +84,8 @@ public class HeapSort {
         // to do
         for (int i = V.length / 2; i >= 1; i--) {
             maxheapfy(V, i - 1);
-//            System.out.println("============================================");
-//            imprimeHeap(V);
+            System.out.println("============================================");
+            imprimeHeap(V);
         }
     }
 

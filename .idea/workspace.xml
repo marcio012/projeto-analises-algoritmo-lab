@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b7b68-b57d-4d98-a0e1-85b3f48d763e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26dd0762030bb8165df475cf618ec35479b05c6a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45f173061a3db92d9c5b6a6a6577f0b09a61036b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a2574152c5de9ea91d41007db825a98d38dcff8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54352453ca94a040b9aeff4207c4a288f65c248d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/775ff9422dad6a81c39c38fc2eea946ce5f992d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a791a890a0982c04df42b08a8124d0f891d19900" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0b2341139ee90acd09c17b8b13c679d54b4dba4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c88fae5aeeeb7c4b32a109c225bfc122a884973c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd21c4989b7168d43f778e66c2f67a25a9f3daa8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2248fef8d623fd185e4ec924c85aae9906960b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2248fef8d623fd185e4ec924c85aae9906960b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2248fef8d623fd185e4ec924c85aae9906960b0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/projeto-analises-algoritmo-lab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio2_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio3_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Exercicio5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/ForAninhado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/website/marcioheleno/Questao4Trabalho.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-analises-algoritmo-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-analises-algoritmo-lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +88,10 @@
       <workItem from="1569434910807" duration="319000" />
       <workItem from="1569463708700" duration="1397000" />
       <workItem from="1569468171739" duration="1841000" />
-      <workItem from="1569470188966" duration="6730000" />
+      <workItem from="1569470188966" duration="7107000" />
+      <workItem from="1569523357806" duration="286000" />
+      <workItem from="1569798296984" duration="373000" />
+      <workItem from="1569804752686" duration="4388000" />
     </task>
     <servers />
   </component>
@@ -142,6 +123,16 @@
           <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java</url>
           <line>43</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
