@@ -62,13 +62,13 @@ public class HeapSort {
         int r = right(i);
         int maior = i;
 
-        if (l <= V.length && V[l] > V[i]) {
+        if (l < V.length && V[l] > V[i]) {
             maior = l;
         } else {
             maior = i;
         }
 
-        if (r <= V.length && V[r] > V[maior]) {
+        if (r < V.length && V[r] > V[maior]) {
             maior = r;
         }
 
