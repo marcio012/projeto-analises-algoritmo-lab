@@ -1,0 +1,11 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(İÙ•®8Ú¦ĞÿØ-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…´“–ûÿÿÿÿ8Ç£ãüØ-
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Éü¥ ûÿÿÿÿ8èÚşüØ-
+psquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÓÒØ8¡ÀıØ-
+osquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞêØf8­¿èüØ-
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ÍÂë•Ù-
+U
+squid:S106."9Replace this use of System.out or System.err by a logger.(°•Ş8èÚşüØ-

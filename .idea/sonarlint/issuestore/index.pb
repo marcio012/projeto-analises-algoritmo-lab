@@ -19,3 +19,11 @@ b
 2src/website/marcioheleno/av1/Questao4Trabalho.java,4/5/45f173061a3db92d9c5b6a6a6577f0b09a61036b
 e
 5src/website/marcioheleno/av2/exercicio1/HeapSort.java,f/2/f2248fef8d623fd185e4ec924c85aae9906960b0
+g
+7src/website/marcioheleno/av2/exercicio2/Exercicio2.java,5/e/5ecd5948e6f55a7cdae267e670656ebe0491b0ac
+f
+6src/website/marcioheleno/av2/exercicio2/Partition.java,5/1/5146e60bc101f6cff44c5ef43c57aa524cf08ef1
+i
+9src/website/marcioheleno/av2/exercicio2/PartitionApp.java,3/d/3d1498456231f1ac2484e1959d6d66684c9bf44d
+s
+Csrc/website/marcioheleno/av2/exercicio2/ImplementacaoQuickSort.java,1/d/1d0d621927ceaad24335de90802f083ea1340411

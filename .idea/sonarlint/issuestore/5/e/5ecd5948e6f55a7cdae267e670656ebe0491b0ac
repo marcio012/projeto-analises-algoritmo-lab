@@ -1,0 +1,26 @@
+
+usquid:S00117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Æïşÿÿÿÿ8©¬óØ-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(›¢„Ÿûÿÿÿÿ8©¬óØ-
+osquid:S00117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ³ë'8ìÌÁûØ-
+vsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÛ·¹øÿÿÿÿ8Ğ”ŒûØ-
+psquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ß‚Æ8Â¶Ğ–Ù-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ›Œëşÿÿÿÿ8¨½¨Ù-
+Isquid:S1481P"&Remove this unused "B" local variable.(à’³»ÿÿÿÿÿ8©¬óØ-
+nsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(õœÒøÿÿÿÿ8Å¹î§Ù-
+‹"squid:ClassVariableVisibilityCheck	"QMake idade a static final constant or non-public and provide accessors if needed.(ñÑ¿şøÿÿÿÿ8©¬óØ-
+psquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ ë¬8©¬óØ-
+usquid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÓ—£øÿÿÿÿ8©¬óØ-
+\
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(Ù¶‚½ûÿÿÿÿ8©¬óØ-
+?squid:S1643"Use a StringBuilder instead.(½û­§şÿÿÿÿ8©¬óØ-
+9squid:S3626Y"Remove this redundant jump.(ûÁİ…8·¯ºûØ-
+psquid:S00117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§–Ğ8áÎ¸ûØ-
+isquid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(Ó®×¼8¼ÎÄ¨Ù-
+psquid:S00117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¾å÷8Ñøİ¨Ù-
+[squid:UnusedPrivateMethodr"/Remove this unused private "partition2" method.(×¾å÷8Ñøİ¨Ù-
+…"squid:ClassVariableVisibilityCheck"PMake nome a static final constant or non-public and provide accessors if needed.(µ©Ñ¸8©¬óØ-
+usquid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à’³»ÿÿÿÿÿ8©¬óØ-
+usquid:S3457‹"Q%n should be used in place of \n to produce the platform-specific line separator.(Ù¶‚½ûÿÿÿÿ8©¬óØ-
+Š"squid:ClassVariableVisibilityCheck
+"PMake sexo a static final constant or non-public and provide accessors if needed.(€¤§÷ÿÿÿÿÿ8©¬óØ-
