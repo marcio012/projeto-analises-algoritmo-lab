@@ -28,11 +28,17 @@ public class Exercicio2 {
             criancas[i] = new Crianca();
         }
         imprime(criancas);
-//        organizaSexo (criancas);
-//        imprime(criancas);
+        System.out.println("Organizando pelo sexo");
+        organizaSexo (criancas);
+        imprime(criancas);
+
+        System.out.println("Organizando pela idade local");
         organizaIdadeLocal(criancas);
         imprime(criancas);
-        //organizaIdadeNaoLocal (criancas);
+
+        System.out.println("Organizando pela idade não local");
+        organizaIdadeNaoLocal (criancas);
+        imprime(criancas);
 
     }
 
@@ -54,85 +60,45 @@ public class Exercicio2 {
     }
 
     static void organizaIdadeLocal (Crianca[] A) {
-        quickSort(A,0,A.length - 1 );
-//        boolean pivo1; // pivo 06 a 10
-//        boolean pivo2; // pivo 11 a 14
-//        boolean pivo3; // pivo 15 a 16
-//        int x = -1;
-//        for (int i = 0; i < A.length; i++) {
-//            if (A[i].idade <= 6 && A[i].idade <= 10) {
-//                x++;
-//                troca(A, x, i);
-//            }
-//            else if (A[i].idade <= 11 && A[i].idade <=14) {
-//                x++;
-//                troca(A, x, i);
-//            }
-//            else {
-//                x++;
-//                troca(A, x, i);
-//            }
-//        }
+        int x = -1;
+        for (int i = 0; i < A.length; i++) {
+            if ( A[i].idade <= 10 ) {
+                x++;
+                troca( A, x, i );
+            }
+        }
+
+        for (int i = x + 1; i < A.length; i++) {
+            if (A[i].idade <=14) {
+                x++;
+                troca(A, x, i);
+            }
+        }
     }
 
     static void organizaIdadeNaoLocal (Crianca[] A) {
-        //to do
         Crianca[] B = A.clone();
-    }
-
-    static void quickSort(Crianca[] A, int esq, int dir) {
-        if (esq < dir) {
-            int q = particao(A, esq, dir, 14);
-            quickSort(A, esq, q -1);
-            quickSort(A, q + 1, dir);
-        }
-        return;
-    }
-
-    private static int particao(Crianca[] A, int esq, int dir, int pivo) {
-//        int pivo = A[dir].idade; // length
-        int x = esq - 1;
-        for (int i = esq; i < dir; i++) {
-            if (A[i].idade <= pivo - 4) {
-                x++;
-                troca(A, x, i);
-            }
-            if (A[i].idade > pivo - 4 && A[i].idade <= 14) {
-                x++;
-                troca(A, x, i);
-            }
-            if (A[i].idade > pivo) {
-                x++;
-                troca(A, x, i);
-            }
-
-        }
-        troca(A, x + 1, dir);
-        return x + 1;
-    }
-
-    private static int partition2(Crianca[] A, int p, int r, int s, int t) { // r = 10 s = 14 t = 15
-        int pivo1 = r; // length 10
-        int pivo2 = s; // length 14
-        int pivo3 = t; // length 15
-        int x = p - 1;
-        for (int i = p; i < r; i++) {
-            if (A[i].idade >= pivo1) {
-                x++;
-                troca(A, x, i);
-            }
-            if (A[i].idade > pivo1 && A[i].idade <= pivo2 ) {
-                x++;
-                troca(A, x, i);
-            }
-            if (A[i].idade >= pivo3) {
-                x++;
-                troca(A, x, i);
+        int k = 0;
+        for (int i = 0; i < B.length; i++) {
+            if (B[i].idade <= 10) {
+                A[k] = B[i];
+                k++;
             }
         }
-        troca(A, x + 1, r);
-        return x + 1;
+        for (int i = 0; i < B.length; i++) {
+			if (B[i].idade > 10 && B[i].idade <= 14) {
+				A[k] = B[i];
+				k++;
+			}
+		}
+		for (int i = 0; i < B.length; i++) {
+			if (B[i].idade > 14) {
+				A[k] = B[i];
+				k++;
+			}
+		}
     }
+
 
     static void imprime (Crianca[] A) {
         for (int i = 0; i < A.length; i++) {

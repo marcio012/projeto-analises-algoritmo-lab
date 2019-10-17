@@ -27,6 +27,7 @@ public class Questao4Trabalho {
 				System.out.println("é par");
 			}
 		}
+		System.out.println(qtdImpar);
 //        System.out.println(qtdImpar);
 //        int vet2[] = new int[10];
 
