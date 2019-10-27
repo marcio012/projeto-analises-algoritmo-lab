@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340b7b68-b57d-4d98-a0e1-85b3f48d763e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/projeto-analises-algoritmo-lab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av1/Questao4Trabalho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av1/Questao4Trabalho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/Exercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/Exercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-analises-algoritmo-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-analises-algoritmo-lab.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -77,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Questao4Trabalho">
+  <component name="RunManager" selected="Application.Exercicio4">
     <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio3.Exercicio1" />
       <module name="projeto-analises-algoritmo-lab" />
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementacaoQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio2.ImplementacaoQuickSort" />
+    <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio4.Exercicio4" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio2.*" />
+          <option name="PATTERN" value="website.marcioheleno.av2.exercicio4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio2.PartitionApp" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio1.HeapSort" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio2.*" />
+          <option name="PATTERN" value="website.marcioheleno.av2.exercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Questao4Trabalho" />
-        <item itemvalue="Application.Exercicio2" />
+        <item itemvalue="Application.Exercicio4" />
         <item itemvalue="Application.Exercicio1" />
-        <item itemvalue="Application.ImplementacaoQuickSort" />
-        <item itemvalue="Application.PartitionApp" />
+        <item itemvalue="Application.Exercicio2" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Questao4Trabalho" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +269,31 @@
           <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio3/Exercicio1.java</url>
           <line>47</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
