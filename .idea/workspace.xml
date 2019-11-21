@@ -77,13 +77,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercicio4">
-    <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio3.Exercicio1" />
+  <component name="RunManager" selected="Application.Exercicio1 (1)">
+    <configuration name="Exercicio1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av3.lab01.Exercicio1" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio3.*" />
+          <option name="PATTERN" value="website.marcioheleno.av3.lab01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio2.Exercicio2" />
+    <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio3.Exercicio1" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio2.*" />
+          <option name="PATTERN" value="website.marcioheleno.av2.exercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio1 (1)" />
         <item itemvalue="Application.Exercicio4" />
         <item itemvalue="Application.ImplementacaoQuickSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Exercicio1" />
-        <item itemvalue="Application.Exercicio2" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,7 @@
       <workItem from="1572206927476" duration="4989000" />
       <workItem from="1572262677772" duration="2917000" />
       <workItem from="1572445746478" duration="6022000" />
-      <workItem from="1574342761643" duration="206000" />
+      <workItem from="1574342761643" duration="7562000" />
     </task>
     <servers />
   </component>
@@ -270,6 +270,16 @@
           <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/ImplementacaoQuickSort.java</url>
           <line>24</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
