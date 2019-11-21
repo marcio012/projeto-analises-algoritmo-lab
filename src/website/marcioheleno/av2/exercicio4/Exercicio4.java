@@ -7,8 +7,9 @@ public class Exercicio4 {
     public static void main(String[] args) {
 
         int [] p = {3, 1, 2, 3, 4, 2, 1, 5, 9, 8, 2, 4, 3, 6, 3, 8};
-        //int [] p = {4, 5, 3, 2, 6, 1, 5, 6, 2, 7, 2, 1, 4, 3, 2, 8, 3,
-        //	   6, 5, 2, 6, 2, 5, 2, 8, 3, 6, 4, 5, 3, 7, 4, 6, 3};
+//        int [] p = {8, 5, 3, 6, 2, 7};
+//        int [] p = {4, 5, 3, 2, 6, 1, 5, 6, 2, 7, 2, 1, 4, 3, 2, 8, 3,
+//        	   6, 5, 2, 6, 2, 5, 2, 8, 3, 6, 4, 5, 3, 7, 4, 6, 3};
         int n = p.length-1;
         double inicio, fim, tempo;
         int m;
@@ -51,6 +52,7 @@ public class Exercicio4 {
         m = dinamico(p);
         fim = System.currentTimeMillis();
         tempo = fim - inicio;
+        imprime(queb, 1, n);
         System.out.println();
         System.out.printf("%-15s%10s%10s\n", "Método", "Qtde", "Tempo");
         System.out.printf("%-15s%10d%10.2f\n", "Dinamico", m, tempo);
@@ -119,7 +121,6 @@ public class Exercicio4 {
                 }
             }
         }
-        imprime(s, 1, n);
         return m[1][n];
     }
 

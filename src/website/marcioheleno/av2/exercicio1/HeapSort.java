@@ -6,14 +6,15 @@ public class HeapSort {
 
     public static void main(String[] args) {
         int[] A = {86, 78, 36, 61, 67, 34, 58, 42, 35, 59, 62, 28, 60, 37, 12};
+//        int[] A = {77, 42, 26, 43, 9 ,7 };
         System.out.println("Vetor A:");
         imprimeVetor(A);
         System.out.println("Heap A:");
         imprimeHeap(A);
         System.out.println("Left A(2):");
-        System.out.println(A[left(2)]);
+//        System.out.println(A[left(2)]);
         System.out.println("Right A(4):");
-        System.out.println(A[right(4)]);
+//        System.out.println(A[right(4)]);
         System.out.println("Aplicando MaxHeapFy na raiz do vetor:");
         maxheapfy(A, 0);
         imprimeHeap(A);
@@ -33,16 +34,16 @@ public class HeapSort {
         maxheapfy(A, 2);
         maxheapfy(A, 5);
         imprimeHeap(A);
-        int[] B = criaVetorAleatorio(15);
-        System.out.println("------------------------------------------------------------------------------------------");
-        System.out.println("Vetor B:");
-        imprimeVetor(B);
-        imprimeHeap(B);
-
-        System.out.println("=======================================");
-        System.out.println("Aplicando o procedimento de buildMaxHeap no vetor B:");
-        buildmaxheap(B);
-        imprimeHeap(B);
+//        int[] B = criaVetorAleatorio(15);
+//        System.out.println("------------------------------------------------------------------------------------------");
+//        System.out.println("Vetor B:");
+//        imprimeVetor(B);
+//        imprimeHeap(B);
+//
+//        System.out.println("=======================================");
+//        System.out.println("Aplicando o procedimento de buildMaxHeap no vetor B:");
+//        buildmaxheap(B);
+//        imprimeHeap(B);
 
 
     }

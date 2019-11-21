@@ -5,7 +5,8 @@ import java.util.Random;
 public class ImplementacaoQuickSort {
 
     public static void main(String[] args) {
-        int [] v = {3, 8, 10, 7, 2, 4};
+//        int [] v = {3, 8, 10, 7, 2, 4};
+        int [] v = {78, 25, 62, 91, 13, 94, 50};
         imprime(v);
         quickSort(v, 0, v.length - 1);
         System.out.println("Alinhado");
@@ -28,6 +29,7 @@ public class ImplementacaoQuickSort {
                 x++;
                 troca(A, x, i);
             }
+            System.out.println("Vetor passo a passo" + A.toString());
         }
         troca(A, x + 1, r);
         return x + 1;
@@ -37,6 +39,7 @@ public class ImplementacaoQuickSort {
         int temp = numbers[j];
         numbers[j] = numbers[k];
         numbers[k] = temp;
+        System.out.println(numbers.toString());
     }
 
     static void imprime (int[] A) {
