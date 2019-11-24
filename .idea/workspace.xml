@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="340b7b68-b57d-4d98-a0e1-85b3f48d763e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio1/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/ImplementacaoQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/ImplementacaoQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio4/Exercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +187,9 @@
       <workItem from="1572262677772" duration="2917000" />
       <workItem from="1572445746478" duration="6022000" />
       <workItem from="1574342761643" duration="7562000" />
+      <workItem from="1574358355653" duration="573000" />
+      <workItem from="1574359670333" duration="2245000" />
+      <workItem from="1574605201537" duration="5376000" />
     </task>
     <servers />
   </component>
@@ -270,16 +271,6 @@
           <url>file://$PROJECT_DIR$/src/website/marcioheleno/av2/exercicio2/ImplementacaoQuickSort.java</url>
           <line>24</line>
           <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab01/Exercicio1.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

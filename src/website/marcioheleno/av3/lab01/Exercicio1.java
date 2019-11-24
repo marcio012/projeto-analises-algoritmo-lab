@@ -17,7 +17,7 @@ public class Exercicio1 {
             }
             nome = "";
             nome += (char)('A' + randomGenerator.nextInt(26));
-            for (int i = 2; i <= 10; i++) {
+            for (int i = 1; i <= 10; i++) {
                 nome += (char) ('a' + randomGenerator.nextInt(26));
             }
             creditos = randomGenerator.nextInt(201);
@@ -100,17 +100,14 @@ public class Exercicio1 {
 
     static Aluno[] ordenaNome (Aluno[] A) {
         // to do
+        int tamanhoDonome = 10;
 
-
-        int tamanhoNome = A.length;
-        int[] C = new int[A[0].nome.length()];
-
-        for (int d = tamanhoNome -1; d >= 0; d--) {
+        for (int d = tamanhoDonome -1; d >= 0; d--) {
             Aluno[] B = new Aluno[A.length];
-
+            int[] C = new int[26];
 
             for (int j = 0; j < A.length; j++){
-                int digito = (int) A[j].nome.charAt(d) - 'a';
+                int digito = (int) A[j].nome.toLowerCase().charAt(d) - 'a';
                 C[digito] += 1;
             }
 
@@ -119,7 +116,7 @@ public class Exercicio1 {
 
             for (int j = A.length - 1; j >= 0; j--) {
                 Aluno aluno = A[j];
-                int digito = (int) A[j].nome.charAt(d) - 'a';
+                int digito = (int) A[j].nome.toLowerCase().charAt(d) - 'a';
                 int posicao = C[digito] - 1;
 
                 B[posicao] = aluno;
