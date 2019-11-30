@@ -85,6 +85,13 @@ public class Exercicio1 {
     }
     static boolean viavel(Grafo g, List<Integer> candidata) {
         // todo - checar se todas as arestas da solucao candidata fazem parte do grafo
+
+        for (int i = 0; i < candidata.size();  i++) {
+            if (g.m[i][i + 1] == candidata.get(i)) {
+                return true;
+            }
+        }
+
         return true;
     }
     static boolean hamiltoniano(Grafo g) {
