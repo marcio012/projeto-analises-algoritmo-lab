@@ -76,6 +76,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Exercicio1 (2)">
+    <configuration name="CiclyHametoniano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av3.lab02.CiclyHametoniano" />
+      <module name="projeto-analises-algoritmo-lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="website.marcioheleno.av3.lab02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercicio1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av3.lab01.Exercicio1" />
       <module name="projeto-analises-algoritmo-lab" />
@@ -102,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio4.Exercicio4" />
+    <configuration name="InterviewPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av3.lab02.InterviewPermutations" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio4.*" />
+          <option name="PATTERN" value="website.marcioheleno.av3.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,25 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio1.HeapSort" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av3.lab02.Permutation" />
       <module name="projeto-analises-algoritmo-lab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImplementacaoQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="website.marcioheleno.av2.exercicio2.ImplementacaoQuickSort" />
-      <module name="projeto-analises-algoritmo-lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="website.marcioheleno.av2.exercicio2.*" />
+          <option name="PATTERN" value="website.marcioheleno.av3.lab02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Exercicio1 (2)" />
+        <item itemvalue="Application.InterviewPermutations" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.CiclyHametoniano" />
         <item itemvalue="Application.Exercicio1 (1)" />
-        <item itemvalue="Application.Exercicio4" />
-        <item itemvalue="Application.ImplementacaoQuickSort" />
-        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +190,8 @@
       <workItem from="1574358355653" duration="573000" />
       <workItem from="1574359670333" duration="2245000" />
       <workItem from="1574605201537" duration="5376000" />
+      <workItem from="1575212240166" duration="13320000" />
+      <workItem from="1575241760231" duration="4171000" />
     </task>
     <servers />
   </component>
@@ -273,9 +275,19 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab02/Exercicio1.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="58" />
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab02/Permutation.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab02/InterviewPermutations.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/website/marcioheleno/av3/lab02/Permutation.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

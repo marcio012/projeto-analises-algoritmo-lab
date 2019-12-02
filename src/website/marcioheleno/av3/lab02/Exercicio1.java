@@ -1,9 +1,6 @@
 package website.marcioheleno.av3.lab02;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Exercicio1 {
 
@@ -86,16 +83,62 @@ public class Exercicio1 {
     static boolean viavel(Grafo g, List<Integer> candidata) {
         // todo - checar se todas as arestas da solucao candidata fazem parte do grafo
 
-        for (int i = 0; i < candidata.size();  i++) {
-            if (g.m[i][i + 1] == candidata.get(i)) {
-                return true;
+        for (int i = 0; i < g.m.length - 1 ;  i++) {
+            if(g.m[candidata.get(i)][candidata.get(i+1)] == 0){
+                return false;
             }
+        }
+        if(g.m[candidata.size()-1][candidata.get(0)] == 0){
+            return false;
         }
 
         return true;
     }
     static boolean hamiltoniano(Grafo g) {
         // todo - gerar todas as permutacoes dos vertices e checar se alguma é viável
+        for (int i = 0; i < g.m.length; i++) {
+            for (int j = 0; j < 1; j++) {
+                System.out.printf("%2d", g.m[i][j]);
+            }
+        }
+        System.out.println("");
         return true;
     }
+
+//    static public Grafo permute( List<Integer> a ) {
+//        // Validação de entrada
+//        if( a == null )
+//            throw new IllegalArgumentException( "A entrada não pode ser nula" );
+//
+//        ArrayList<ArrayList<Integer>> toReturn = new ArrayList<ArrayList<Integer>>();
+//
+//        if( a.size() == 1 ){
+//            toReturn.add( new ArrayList<Integer>(a) );
+//            return toReturn;
+//        }
+//
+//        // Loop em todos os elementos.
+//        for( int i = 0 ; i < a.size(); i++ ){
+//            int current = a.get( i );
+//            ArrayList<Integer> tmp = new ArrayList<Integer>(a);
+//            tmp.remove( i );
+//
+//            // Chame recursivamente com subconjunto
+//            ArrayList<ArrayList<Integer>> res = permute(tmp);
+//
+//            // Crie o resultado da sub-lista retornada
+//            for( int j = 0 ; j < res.size() ; j++ ){
+//                ArrayList<Integer> toAdd = new ArrayList<Integer>();
+//                toAdd.add( current );
+//                toAdd.addAll( res.get( j ) );
+//
+//                toReturn.add( toAdd );
+//            }
+//        }
+//
+//        // devolver os resultados
+//        return toReturn;
+//    }
+
+
 }
